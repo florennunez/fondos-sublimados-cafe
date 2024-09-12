@@ -15,16 +15,16 @@
         <nav>
             <ul>
                 <li><a href="#hero">Inicio</a></li>
-                <li><a href="#tarjetas">Tarjetas</a></li>
+                <li><a href="#cards">Tarjetas</a></li>
+                <li><a href="#redes">Redes</a></li>
                 <li><a href="#formulario">Formulario</a></li>
-                <li><a href="#articulos">Artículos</a></li>
             </ul>
         </nav>
     </header>
     
     <!-- hero -->
     <section id="hero">
-        <h1>Catálogo de Fondos</h1>
+        <h1>Fondos</h1>
         <p>Pasame el titulo del fondo y el nombre ❤️</p>
     </section>
     
@@ -71,42 +71,37 @@
             </div>
         </section>
         
-        <!-- Formulario Section -->
-        <section id="formulario">
-            <h2>Formulario de Contacto</h2>
-            <form>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre">
-                
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email">
-                
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-        
         <!-- Artículos Section -->
-        <section id="articulos">
-            <article>
+        <section id="redes">
+            <div class="redes-container">
+            <div class="redes-card">
                 <h2>Instagram</h2>
-                <div>
-                    <img class="imagen-redes" src="img/instagram.jpeg" alt="Artículo 1">
-                    <figcaption>pasa a chusmiar</figcaption>
-                </div>
-                <p><a href="https://www.instagram.com/sublimados_cafe/profilecard/?igsh=d20yMnA5cGNpMXUx">para ir al feed</a></p>
-                <p>Más texto del artículo 1.</p>
-            </article>
-            <article>
+                <img class="imagen-redes" src="img/instagram.jpg" alt="Artículo 1">
+                <figcaption>pasa a chusmiar</figcaption>
+                <p><a href="https://www.instagram.com/sublimados_cafe/profilecard/?igsh=d20yMnA5cGNpMXUx">Ir al feed</a></p>
+            </div>
+            <div class="redes-card">
                 <h2>Whatsapp</h2>
-                <div>
-                    <img class="imagen-redes" src="img/whatsapp.jpeg" alt="Artículo 2">
-                    <figcaption>para comunicarte conmigo</figcaption>
-                </div>
+                <img class="imagen-redes" src="img/whatsapp.jpeg" alt="Artículo 2">
+                <figcaption>para comunicarte</figcaption>
                 <p><a href="https://wa.me/1137709546">Link wpp</a></p>
-                <p>Más texto del artículo 2.</p>
-            </article>
+            </div>
+            </div>
         </section>
     </main>    
+    <!-- Formulario Section -->
+            <section id="formulario">
+                <h2>Contactame</h2>
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                    
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email">
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
     <!-- Footer -->
     <footer>
         <ul>
