@@ -33,6 +33,7 @@ nav ul li a {
     text-align: center;
     padding: 100px 20px;
     overflow: hidden; 
+    margin-bottom: 10px;
 }
 
 #hero::before {
@@ -71,22 +72,20 @@ nav ul li a {
 
 #cards {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card {
     border: 1px solid #ddd;
     padding: 20px;
-    text-align: center;
     width: 30%;
     margin-bottom: 20px;
 }
 
 .card img {
     width: 100%;
-    height: 400px;
+    height: 200px;
     display: block;
 }
 
@@ -108,6 +107,12 @@ nav ul li a {
     gap: 20px; /* Espacio entre columnas */
     justify-content: space-between; 
     flex-wrap: wrap; 
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex-wrap: column;
+    }
 }
 
 .redes-card {
@@ -156,7 +161,7 @@ section div div img{
 }
 
 footer {
-    background-color: #333;
+    background-color: rgb(230, 132, 245);
     color: white;
     text-align: center;
     padding: 20px 0;
