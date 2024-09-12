@@ -28,6 +28,7 @@ nav ul li a {
 }
 
 #hero {
+    font-family: poppins;
     position: relative;
     color: white;
     text-align: center;
@@ -107,6 +108,7 @@ nav ul li a {
     gap: 20px; /* Espacio entre columnas */
     justify-content: space-between; 
     flex-wrap: wrap; 
+    align-items: center;
 }
 
 @media (max-width: 480px) {
