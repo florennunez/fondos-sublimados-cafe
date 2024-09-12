@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: rgb(229, 122, 46);
     color: white;
     padding: 10px 0;
 }
@@ -97,35 +97,26 @@ nav ul li a {
     font-size: 1em;
 }
 
-.card button {
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: #c56229;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
 #redes {
     padding: 20px;
     display: flex;
 }
 
 .redes-container {
-    display: flex; /* Configura el contenedor como flex */
+    display: flex; 
     gap: 20px; /* Espacio entre columnas */
-    justify-content: space-between; /* Espacio entre columnas */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan si es necesario */
-  }
-  
-  .redes-card {
-    flex: 1; /* Haz que cada card tome el mismo espacio */
-    min-width: 200px; /* Asegura un tamaño mínimo para cada card */
-    padding: 10px; /* Espaciado interno */
-    text-align: center; /* Centra el contenido de texto */
-    border-radius: 8px; /* Esquinas redondeadas */
-  }
-  
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.redes-card {
+    flex: 1; /* cada card tome el mismo espacio */
+    min-width: 200px; 
+    padding: 10px;
+    text-align: center; 
+    border-radius: 8px; 
+}
+
 
 section div div img{
     width: 70%;
