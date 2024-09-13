@@ -176,10 +176,15 @@ footer ul li {
     margin: 0 10px;
 }
 
-footer ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1em;
+.btn-imagen {
+    display: inline-block; /* Permite el ajuste de tamaño y otros estilos */
+}
+
+.btn-imagen img {
+    width: 32px; /* Ajusta el tamaño de la imagen según necesites */
+    height: auto;
+    cursor: pointer; /* Cambia el cursor al de mano */
+    border: none; /* Elimina cualquier borde alrededor de la imagen */
 }
 
 footer p {
