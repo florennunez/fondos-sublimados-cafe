@@ -91,22 +91,18 @@ nav ul li a {
 }
 
 .card h2 {
-    font-size: 1.5em;
-}
-
-.card p {
     font-size: 1em;
 }
 
 #redes {
     padding: 20px;
     display: flex;
+    justify-content: center; 
 }
 
 .redes-container {
     display: flex; 
-    gap: 20px; /* Espacio entre columnas */
-    justify-content: space-between; 
+    gap: 20px; /* Espacio entre columnas */  
     flex-wrap: wrap; 
     align-items: center;
 }
@@ -163,6 +159,8 @@ section div div img{
 }
 
 footer {
+    font-family: "Poppins";
+    font-weight: 400;
     background-color: rgb(230, 132, 245);
     color: white;
     text-align: center;
