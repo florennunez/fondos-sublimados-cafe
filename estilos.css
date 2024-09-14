@@ -132,35 +132,9 @@ section div div img{
     height: auto;
     border-radius: 50%;
 }
-#formulario {
-    padding: 20px;
-    text-align: center;
-}
 
-#formulario form {
-    display: inline-block;
-    text-align: left;
-}
-
-#formulario label {
-    display: block;
-    margin: 10px 0 5px;
-}
-
-#formulario input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-}
-
-#formulario button {
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    cursor: pointer;
+main{
+    margin-bottom: 30px;;
 }
 
 footer {
