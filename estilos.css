@@ -127,6 +127,22 @@ nav ul li a {
     border-radius: 8px; 
 }
 
+.estilos-redes-a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #0f0e0e;
+    background-color: #eeeff0;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.estilos-redes-a:hover {
+    background-color: #eeeff0;
+}
+
 section div div img{
     width: 70%;
     height: auto;
